@@ -8,7 +8,7 @@ import org.apache.kafka.common.serialization.StringSerializer;
 import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
-public class App 
+public class NewOrderMain
 {
     public static void main( String[] args ) throws ExecutionException, InterruptedException {
         var producer = new KafkaProducer<String, String>(properties());
